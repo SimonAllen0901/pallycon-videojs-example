@@ -1,5 +1,4 @@
-// 請將 YOUR_LIFF_ID 替換為你自己的 LIFF ID
-const liffId = "YOUR_LIFF_ID";
+const liffId = "1660736305-gpWYY58m";
 
 window.onload = function () {
   const liffCheck = document.getElementById("liffCheck");
