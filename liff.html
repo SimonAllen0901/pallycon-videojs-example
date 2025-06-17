@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PallyCon VideoJS with LINE LIFF</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- VideoJS library and css -->
+    <script src="https://vjs.zencdn.net/7.21.5/video.min.js"></script>
+    <link href="https://vjs.zencdn.net/7.21.5/video-js.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/videojs-contrib-eme@3.8.0/dist/videojs-contrib-eme.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/videojs-contrib-dash@5.1.1/dist/videojs-dash.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <h2 id="browserCheckResult"></h2>
+       <h2 id="liffCheck"></h2>
+      <p>
+        <video
+          id="my-player"
+          class="video-js vjs-default-skin vjs-16-9"
+          controls
+          data-setup="{}"
+        ></video>
+      </p>
+    </main>
+
+    <script type="text/javascript" src="js/pallycon-sample-helper.js"></script>
+    <script type="text/javascript" src="js/videojs-sample.js"></script>
+    <script type="text/javascript" src="js/liff-init.js"></script>
+  </body>
+</html>
