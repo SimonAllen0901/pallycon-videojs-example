@@ -98,6 +98,10 @@ function configureDRM() {
 
 checkSupportedDRM().then(() => {
   checkBrowser();
+  const currentPathDiv = document.getElementById("currentPath");
+  if (currentPathDiv) {
+    currentPathDiv.innerText = `Path: ${window.location.pathname}`;
+  }
   player.ready(function () {
     configureDRM();
   });
